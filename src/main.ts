@@ -12,7 +12,6 @@ import about2 from './assets/about_item_2.png'
 import about3 from './assets/about_item_3.png'
 import about4 from './assets/about_item_4.png'
 import logo from './assets/logo.png'
-import { setupCounter } from './counter.ts'
 import 'bootstrap'
 import './style.scss'
 import 'bootstrap'
@@ -338,10 +337,8 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 <!--        </a>    -->
 <!--    </footer>-->
 
-<section id="counter"></section>
 `
 
-setupCounter(document.querySelector<HTMLButtonElement>('#counter')!)
 
 const canvas = document.createElement('canvas')
 canvas.id = 'fire-cursor'
