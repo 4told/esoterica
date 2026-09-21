@@ -1,28 +1,33 @@
 import './style.scss'
+
 import item1 from './assets/eso_item_1.png'
 import item2 from './assets/eso_item_2.png'
 import item3 from './assets/eso_item_3.png'
 import item4 from './assets/eso_item_4.png'
+
 import services1 from './assets/services_1.png'
 import services2 from './assets/services_2.png'
 import services3 from './assets/services_3.png'
 import services4 from './assets/services_4.png'
+
 import about1 from './assets/about_item_1.png'
 import about2 from './assets/about_item_2.png'
 import about3 from './assets/about_item_3.png'
 import about4 from './assets/about_item_4.png'
+
 import logo from './assets/logo.png'
 import 'bootstrap'
-import './style.scss'
-import 'bootstrap'
 
+document.title = 'ASTRAE — Открой свою истину'
+
+document.documentElement.lang = 'ru'
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 <section id="center" >
     <header>
         <div class="container">
             <div class="row">
                 <div class="header-wrap">
-                    <a href="https://t.me/Nataliia808" target="_blank" class="logo">
+                    <a href="https://t.me/Emmaplaneta808" target="_blank" class="logo">
                         <img src="${logo}" alt="">
                     </a>
                     
@@ -58,7 +63,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
                                 о которой вы сечтаете.
                             </div>
                             <div class="actions">
-                                <a href="https://t.me/Nataliia808" target="_blank">
+                                <a href="https://t.me/Emmaplaneta808" target="_blank">
                                     Узнать больше
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
                                       <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
@@ -122,7 +127,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
                                 <div class="card-body">
                                     <h5 class="card-title">Карты Таро</h5>
                                     <p class="card-text fs-6">Расклад карт помогает глубже понять ситуацию, увидеть скрытые причины и возможные пути развития событий.</p>
-                                    <a href="https://t.me/Nataliia808" target="_blank">
+                                    <a href="https://t.me/Emmaplaneta808" target="_blank">
                                         Узнать больше
                                         <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
                                           <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
@@ -137,7 +142,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
                                 <div class="card-body">
                                     <h5 class="card-title">Отливка на воск</h5>
                                     <p class="card-text fs-6">Выявление внутренних блоков, энергетическое напряжение и то, что может мешать вашему состоянию и гармонии.</p>
-                                    <a href="https://t.me/Nataliia808" target="_blank">
+                                    <a href="https://t.me/Emmaplaneta808" target="_blank">
                                         Узнать больше
                                         <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
                                           <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
@@ -152,7 +157,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
                                 <div class="card-body">
                                     <h5 class="card-title">Практики магии Вуду</h5>
                                     <p class="card-text fs-6">Работу с намерением, энергией и символами для решения личных и жизненных вопросов.</p>
-                                    <a href="https://t.me/Nataliia808" target="_blank">
+                                    <a href="https://t.me/Emmaplaneta808" target="_blank">
                                         Узнать больше
                                         <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
                                           <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
@@ -167,7 +172,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
                                 <div class="card-body">
                                     <h5 class="card-title">Магия Викки</h5>
                                     <p class="card-text fs-6">Природная магия, основанная на работе с энергиями стихий, лунными циклами, травами и силой личного намерения.</p>
-                                    <a href="https://t.me/Nataliia808" target="_blank">
+                                    <a href="https://t.me/Emmaplaneta808" target="_blank">
                                         Узнать больше
                                         <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
                                           <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
@@ -197,7 +202,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
                             Я работаю с энергиями, картами, астрологией и древними знаниями, чтобы вы могли
                             вернуть себе силу, гармонию и уверенность.
                         </p>
-                        <a href="https://t.me/Nataliia808" target="_blank">
+                        <a href="https://t.me/Emmaplaneta808" target="_blank">
                             Узнать больше
                             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
                                 <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
@@ -325,7 +330,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
                 <h3 class="desc mb-5">Сделайте первый шаг к гармонии и осознаности</h3>
                 
             </div>
-            <a href="https://t.me/Nataliia808" target="_blank">Узнать больше</a>
+            <a href="https://t.me/Emmaplaneta808" target="_blank">Узнать больше</a>
         </div>    
     </section>
 
