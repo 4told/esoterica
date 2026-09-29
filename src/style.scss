@@ -335,7 +335,10 @@ body {
   position: relative;
 
   h4 {
-    color: #fff;
+    background: linear-gradient(90deg, #8c6a2f, #f5d98b, #fff4c4, #c99b45);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 
   #magicToolsAccordion {

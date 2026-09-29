@@ -60,7 +60,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
                             <div class="text fs-5 mb-4">
                                 Эзотерические практики, которые помогут <br/> 
                                 Понять себя, найти баланс и создать жизнь, <br/>
-                                о которой вы сечтаете.
+                                о которой вы мечтаете.
                             </div>
                             <div class="actions">
                                 <a href="https://t.me/Emmaplaneta808" target="_blank">
@@ -175,7 +175,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
                                 <img src="${services2}" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title">Отливка на воск</h5>
-                                    <p class="card-text fs-6">Верните себе внутренний свет, силу и гармонию. Снятие сглаза, порчи и других негативных воздейсвий. Бережный славянский ритуал отливки для освобождения от чужого негатива, болезней и безденежья.</p>
+                                    <p class="card-text fs-6">Верните себе внутренний свет, силу и гармонию. Снятие сглаза, порчи и других негативных воздействий. Бережный славянский ритуал отливки для освобождения от чужого негатива, болезней и безденежья.</p>
                                     <a data-bs-toggle="modal" 
                                        data-bs-target="#waxModal"
                                        href="https://t.me/Emmaplaneta808"
@@ -353,7 +353,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
                             <div class="icon">
                                 <img src="${about3}" alt="">
                             </div>
-                            <div class="description">Конфидециальность</div>
+                            <div class="description">Конфиденциальность</div>
                         </div>
                         <div class="about-item mb-3 pb-3">
                             <div class="icon">
@@ -505,7 +505,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
                                         data-bs-parent="#magicToolsAccordion"
                                     >
                                         <div class="accordion-body">
-                                            Отливка на воск - практика очищения, когда воск словно «забирает» на себя то, от чего человек хочет освободиться: порчи, сглаз, тяжесть, тревогу, возврат негатива негатива обидчикам. Защита от врагов.
+                                            Отливка на воск - практика очищения, когда воск словно «забирает» на себя то, от чего человек хочет освободиться: порчи, сглаз, тяжесть, тревогу, возврат негатива обидчикам. Защита от врагов.
                                         </div>
                                     </div>
                                 </div>
@@ -584,7 +584,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     
     <section class="testimonials py-4">
         <div class="testimonials-title">Отзывы</div>
-        <h3 class="mb-5">Отзывы которые вдохновдяют</h3>
+        <h3 class="mb-5">Отзывы, которые вдохновляют</h3>
         
         <div class="container">
             <div class="row">
@@ -668,7 +668,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
             <div class="row">
                 <div class="wrapper">
                     <h2>Готовы изменить свою жизнь?</h2>
-                    <h3 class="desc mb-5">Сделайте первый шаг к гармонии и осознаности</h3>
+                    <h3 class="desc mb-5">Сделайте первый шаг к гармонии и осознанности</h3>
                     <a href="https://t.me/Emmaplaneta808" target="_blank">Узнать больше</a>
                 </div>
             </div>
