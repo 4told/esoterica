@@ -325,10 +325,10 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
                         <div class="title fz-6">Обо мне</div>
                         <h3>Я - мост между сакральными мирами.</h3>
                         <p>
-                            Я стою на грани видимого и сокрытого, проводя свет сквозь тьму неизвестности. Моя миссия - исцелить зов вашей души, отворить тайные двери будущего и даровать ответы, которые бережёт Вселенная. Через древние ритуалы, энергетические потоки и мудрость звёзд я возвращаю вам контроль над собственной судьбой и вашу магическую силу. Я - мост между сакральными мирами. раскрыть сокрытые ресурсы.
+                            Я стою на грани видимого и сокрытого, проводя свет сквозь тьму неизвестности. Моя миссия - исцелить зов вашей души, отворить тайные двери будущего и даровать ответы, которые бережёт Вселенная. Через древние ритуалы, энергетические потоки и мудрость звёзд я возвращаю вам контроль над собственной судьбой и вашу магическую силу. Я - мост между сакральными мирами. раскрытие скрытых ресурсов.
                         </p>
                         <a href="https://t.me/Emmaplaneta808" target="_blank">
-                            раскрыть сокрытые ресурсы.
+                            Узнать больше
                             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
                                 <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
                             </svg> 
@@ -363,6 +363,221 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
                         </div>
                     </div>
                 </div> 
+            </div>
+        </div>
+    </section>
+    
+    <section class="about2 py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h4>Мои магические инструменты</h4>
+                    <p class="desc">У каждой магической практики есть свои магические инструменты, древние символы и свой язык. Я выбираю их не случайно - индивидуально под человека, его ситуацию и тот запрос, с которым он приходит.</p>
+                    <div class="accordion accordion-flush" id="magicToolsAccordion">
+                        <!-- Таро -->
+                        <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingTarot">
+                                        <button
+                                            class="accordion-button"
+                                            type="button"
+                                            data-bs-toggle="collapse"
+                                            data-bs-target="#collapseTarot"
+                                            aria-expanded="true"
+                                            aria-controls="collapseTarot"
+                                        >
+                                            <span class="magic-tool-icon">✦</span>
+                                            <span>Таро</span>
+                                        </button>
+                                    </h2>
+                            
+                                    <div
+                                        id="collapseTarot"
+                                        class="accordion-collapse collapse show"
+                                        aria-labelledby="headingTarot"
+                                        data-bs-parent="#magicToolsAccordion"
+                                    >
+                                        <div class="accordion-body">
+                                            Таро - это мои карты-проводники. Они помогают заглянуть глубже в ситуацию, увидеть скрытое, разобраться в отношениях, выборе, желаниях и возможных путях.
+                                        </div>
+                                    </div>
+                                </div>
+                            <!-- Свечи и огонь -->
+                            <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingFire">
+                                        <button
+                                            class="accordion-button collapsed"
+                                            type="button"
+                                            data-bs-toggle="collapse"
+                                            data-bs-target="#collapseFire"
+                                            aria-expanded="false"
+                                            aria-controls="collapseFire"
+                                        >
+                                            <span class="magic-tool-icon">✦</span>
+                                            <span>Свечи и огонь</span>
+                                        </button>
+                                    </h2>
+                            
+                                    <div
+                                        id="collapseFire"
+                                        class="accordion-collapse collapse"
+                                        aria-labelledby="headingFire"
+                                        data-bs-parent="#magicToolsAccordion"
+                                    >
+                                        <div class="accordion-body">
+                                            Свечи и огонь - очищение от любого зла и болезней, защита, освобождение от старого и место для нового. Огонь всегда был символом перемен и силы.
+                                        </div>
+                                    </div>
+                                </div>
+                            <!-- Травы -->
+                            <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingHerbs">
+                                        <button
+                                            class="accordion-button collapsed"
+                                            type="button"
+                                            data-bs-toggle="collapse"
+                                            data-bs-target="#collapseHerbs"
+                                            aria-expanded="false"
+                                            aria-controls="collapseHerbs"
+                                        >
+                                            <span class="magic-tool-icon">✦</span>
+                                            <span>Травы и природные силы</span>
+                                        </button>
+                                    </h2>
+                            
+                                    <div
+                                        id="collapseHerbs"
+                                        class="accordion-collapse collapse"
+                                        aria-labelledby="headingHerbs"
+                                        data-bs-parent="#magicToolsAccordion"
+                                    >
+                                        <div class="accordion-body">
+                                            Травы и природные силы - то, что приходит к нам из самой природы. Для очищения, защиты, наполнения, привлечения благополучия и создания особого пространства.
+                                        </div>
+                                    </div>
+                                </div>
+                            <!-- Викканские практики -->
+                            <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingWicca">
+                                        <button
+                                            class="accordion-button collapsed"
+                                            type="button"
+                                            data-bs-toggle="collapse"
+                                            data-bs-target="#collapseWicca"
+                                            aria-expanded="false"
+                                            aria-controls="collapseWicca"
+                                        >
+                                            <span class="magic-tool-icon">✦</span>
+                                            <span>Викканские практики</span>
+                                        </button>
+                                    </h2>
+                            
+                                    <div
+                                        id="collapseWicca"
+                                        class="accordion-collapse collapse"
+                                        aria-labelledby="headingWicca"
+                                        data-bs-parent="#magicToolsAccordion"
+                                    >
+                                        <div class="accordion-body">
+                                            Викканские практики - стихии Земли, Воды, Огня и Воздуха, лунные циклы, символы, ритуалы и древняя мудрость природы.
+                                        </div>
+                                    </div>
+                                </div>
+                            <!-- Отливка на воск -->
+                            <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingWax">
+                                        <button
+                                            class="accordion-button collapsed"
+                                            type="button"
+                                            data-bs-toggle="collapse"
+                                            data-bs-target="#collapseWax"
+                                            aria-expanded="false"
+                                            aria-controls="collapseWax"
+                                        >
+                                            <span class="magic-tool-icon">✦</span>
+                                            <span>Отливка на воск</span>
+                                        </button>
+                                    </h2>
+                            
+                                    <div
+                                        id="collapseWax"
+                                        class="accordion-collapse collapse"
+                                        aria-labelledby="headingWax"
+                                        data-bs-parent="#magicToolsAccordion"
+                                    >
+                                        <div class="accordion-body">
+                                            Отливка на воск - практика очищения, когда воск словно «забирает» на себя то, от чего человек хочет освободиться: порчи, сглаз, тяжесть, тревогу, возврат негатива негатива обидчикам. Защита от врагов.
+                                        </div>
+                                    </div>
+                                </div>
+                            <!-- Обереги -->
+                            <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingAmulet">
+                                        <button
+                                            class="accordion-button collapsed"
+                                            type="button"
+                                            data-bs-toggle="collapse"
+                                            data-bs-target="#collapseAmulet"
+                                            aria-expanded="false"
+                                            aria-controls="collapseAmulet"
+                                        >
+                                            <span class="magic-tool-icon">✦</span>
+                                            <span>Обереги</span>
+                                        </button>
+                                    </h2>
+                            
+                                    <div
+                                        id="collapseAmulet"
+                                        class="accordion-collapse collapse"
+                                        aria-labelledby="headingAmulet"
+                                        data-bs-parent="#magicToolsAccordion"
+                                    >
+                                        <div class="accordion-body">
+                                            Обереги - маленькие личные помощники, созданные под конкретный запрос. На защиту, любовь, достаток, удачу или внутреннее спокойствие.
+                                        </div>
+                                    </div>
+                                </div>
+                            <!-- Лунные ритуалы -->
+                            <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingMoon">
+                                        <button
+                                            class="accordion-button collapsed"
+                                            type="button"
+                                            data-bs-toggle="collapse"
+                                            data-bs-target="#collapseMoon"
+                                            aria-expanded="false"
+                                            aria-controls="collapseMoon"
+                                        >
+                                            <span class="magic-tool-icon">✦</span>
+                                            <span>Лунные ритуалы</span>
+                                        </button>
+                                    </h2>
+                            
+                                    <div
+                                        id="collapseMoon"
+                                        class="accordion-collapse collapse"
+                                        aria-labelledby="headingMoon"
+                                        data-bs-parent="#magicToolsAccordion"
+                                    >
+                                        <div class="accordion-body">
+                                            Лунные ритуалы - работа с энергией разных фаз Луны: отпустить ненужное, завершить старое, загадать желание и открыть дорогу новому.
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                            
+                        <div class="magic-tools-conclusion mt-5">
+                            <p>
+                                А ещё есть то, что невозможно положить на стол или взять в руки - интуиция, чувствительность, внимание к человеку и умение услышать то, что иногда остаётся между строк.
+                            </p>
+                            
+                            <p>
+                                    Я верю, что магия начинается не с атрибутов.
+                                    Она начинается с желания что-то изменить.
+                                    А дальше мы уже выбираем инструменты, которые помогут пройти этот путь.
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -451,11 +666,12 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     <section class="are-you-ready py-4">
         <div class="container">
             <div class="row">
-                <h2>Готовы изменить свою жизнь?</h2>
-                <h3 class="desc mb-5">Сделайте первый шаг к гармонии и осознаности</h3>
-                
+                <div class="wrapper">
+                    <h2>Готовы изменить свою жизнь?</h2>
+                    <h3 class="desc mb-5">Сделайте первый шаг к гармонии и осознаности</h3>
+                    <a href="https://t.me/Emmaplaneta808" target="_blank">Узнать больше</a>
+                </div>
             </div>
-            <a href="https://t.me/Emmaplaneta808" target="_blank">Узнать больше</a>
         </div>    
     </section>
 
