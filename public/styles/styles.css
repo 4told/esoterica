@@ -1,0 +1,51 @@
+body {
+    background: url("../images/about_bg_2.png") no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+nav a:hover {
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(90deg, #9b702d 0%, #fff3bd 50%, #9b702d 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+nav a {
+    color: #ffab54;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+:root{color-scheme:dark;--bg:#05070d;--panel:#0c1120;--text:#f2f1fa;--muted:#b9bfd0;--line:#252b40;--accent:#c4adff;--accent2:#9278db}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:24px}
+body{
+    margin:0;
+    color:var(--text);font:16px/1.75 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+    a{color:var(--accent)}a:focus-visible,summary:focus-visible{outline:2px solid var(--accent);outline-offset:4px}.wrap{width:min(1060px,calc(100% - 40px));margin-inline:auto}.header{border-bottom:1px solid var(--line);background:rgba(5,7,13,.86)}.header-inner{min-height:76px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{font-weight:850;letter-spacing:.24em;text-decoration:none;color:#fff;font-size:1.1rem}.nav{display:flex;flex-wrap:wrap;gap:8px 20px}.nav a{font-size:.9rem;text-decoration:none;}
+.hero{padding:78px 0 58px;position:relative}
+
+.crumbs{font-size:.88rem;color:var(--muted);margin-bottom:30px}.crumbs a{color:var(--muted)}
+.eyebrow{
+    color: #f8b168;
+    text-transform: uppercase;
+    letter-spacing: .3px;
+    margin-bottom: 12px;
+    font-size: 14px;
+    font-weight: 700;
+}
+.hero h1{position:relative;z-index:1;font-size:clamp(2.6rem,7vw,5.2rem);letter-spacing:-.055em;line-height:1.04;max-width:780px;margin:18px 0}.hero h2{font-size:clamp(1.2rem,3vw,1.65rem);font-weight:500;line-height:1.4;max-width:700px;color:#e2dafa;margin:0 0 14px}.lead{max-width:760px;font-size:1.1rem;color:var(--muted)}.button{display:inline-flex;align-items:center;justify-content:center;gap:10px;margin-top:22px;padding:13px 21px;border:1px solid #9c85e5;border-radius:999px;background:linear-gradient(135deg,#392b63,#1b1730);color:#fff;text-decoration:none;font-weight:750;box-shadow:0 8px 32px rgba(96,68,163,.18)}.button:hover{filter:brightness(1.13)}.trust{display:flex;gap:10px 22px;flex-wrap:wrap;margin-top:22px;color:#aeb6cb;font-size:.86rem}.trust span:before{content:"✦";color:var(--accent);margin-right:8px}.main-grid{display:grid;grid-template-columns:minmax(0,1fr) 280px;gap:24px;align-items:start;padding-bottom:76px}.article{display:grid;gap:18px}.panel,.sidebar,.faq{border:1px solid var(--line);border-radius:20px;background:linear-gradient(145deg,rgba(17,22,39,.94),rgba(9,12,22,.94));padding:clamp(22px,4vw,34px)}.panel h2,.faq h2{font-size:clamp(1.4rem,3vw,1.85rem);line-height:1.25;letter-spacing:-.025em;margin:0 0 14px}.panel p{margin:0;color:var(--muted)}.sidebar{position:sticky;top:20px}.sidebar h2{font-size:1.12rem;margin:0 0 12px}.service-links{display:grid;gap:7px}.service-links a{padding:9px 11px;border-radius:10px;text-decoration:none;color:var(--muted);background:rgba(255,255,255,.025)}.service-links a:hover,.service-links a[aria-current=page]{background:rgba(196,173,255,.1);color:#fff}.sidebar p{font-size:.9rem;color:var(--muted)}.faq details{border-top:1px solid var(--line);padding:17px 0}.faq details:last-child{padding-bottom:0}.faq summary{cursor:pointer;font-weight:700}.faq details p{color:var(--muted);margin:10px 0 0}.contact{background:radial-gradient(ellipse at 90% 10%,rgba(128,95,198,.16),transparent 50%),#0b0e1a}.contact .button{margin-top:10px}.footer{border-top:1px solid var(--line);padding:28px 0 38px;color:var(--muted);font-size:.88rem}.footer-inner{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}.footer a{color:var(--muted)}.disclaimer{font-size:.84rem;color:#929bb1!important;margin-top:16px!important}@media(max-width:800px){.header-inner{align-items:flex-start;flex-direction:column;padding:18px 0}.nav{gap:8px 14px}.hero{padding:52px 0 40px}.hero:after{width:130px;height:130px;right:0;top:28px}.main-grid{grid-template-columns:1fr}.sidebar{position:static;grid-row:1}.service-links{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:480px){.wrap{width:min(100% - 28px,1060px)}.nav{font-size:.84rem}.hero h1{font-size:2.65rem}.hero:after{opacity:.5}.service-links{grid-template-columns:1fr}.panel,.sidebar,.faq{border-radius:15px;padding:21px}}
+
+
+.crumbs,
+.eyebrow {
+    display: none;
+}
+
+a.brand {
+    display: block;
+
+    img {
+        width: 150px;
+    }
+}

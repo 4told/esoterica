@@ -438,6 +438,10 @@ body {
       color: #dce8ef;
     }
 
+    .button-actions {
+      margin-top: auto;
+    }
+
     a {
       margin-top: auto;
       display: flex;
@@ -453,6 +457,10 @@ body {
 
       @media all and (max-width: 768px) {
         justify-content: center;
+      }
+
+      &:last-of-type {
+        font-weight: bold;
       }
 
       &:hover {
@@ -697,3 +705,25 @@ header {
   mix-blend-mode: screen;
 }
 
+.footer a.logo {
+  display: block;
+
+  img {
+    width: 150px;
+  }
+}
+
+.footer {
+  border-top:1px solid var(--line);
+  padding:16px 0;
+  color: #fff;
+  font-size:.88rem
+}
+
+.footer-inner{
+  display:flex;
+  justify-content:space-between;
+  gap:16px;flex-wrap:wrap;
+  align-items: center;
+}
+.footer a{color:var(--muted)}
